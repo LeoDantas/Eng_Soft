@@ -10,10 +10,10 @@
     var texto = "Buscar Games";
 
     function preenche() {
-        var valor = document.getElementById("busca").value;
-        if(valor == " "){
-            document.getElementById("busca").value=texto;
-        }
+      var valor = document.getElementById("busca").value;
+      if(valor == " "){
+        document.getElementById("busca").value=texto;
+      }
     }
 
     function limpa() {
@@ -32,41 +32,54 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="blue lighten-4">
   <!--[if lte IE 9]>
     <p class="<body>
-  <![endif]-->
+    <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <nav id="menu">
-  <ul>
-    <li><a href="#"><img class="logo_menu" title="Digital Quest" alt= "Digital Quest" src="img/Logo.png"></a></li>
-    <li><a href="#">Games</a></li>
-    <li><a href="#">Lojas</a></li>
-    <li><a href="#">Ofertas</a></li>
-    <li><a href="#">Contato</a></li>
-    <li onload="preenche();">
-      <form action="" method="get">
-      <input type="text" name="palavra" id="busca" value="">
-      <input type="submit" value="Buscar">
-      </form>
-    </li>
-  </ul>
+    <!-- Add your site or application content here -->
+    <nav id="menu">
+      <ul>
+        <li><a href="#"><img class="logo_menu" title="Digital Quest" alt= "Digital Quest" src="img/Logo.png"></a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Lojas</a></li>
+        <!-- <li><a href="#">Ofertas</a></li> -->
+        <li><a href="#">Contato</a></li>
+        <li onload="preenche();">
+          <form action="" method="get">
+            <input type="text" name="palavra" id="busca" value="">
+            <input type="submit" value="Buscar">
+          </form>
+        </li>
+      </ul>
 
- </nav>
+    </nav>
 
-  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
-  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <dir></dir>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
 
-</html>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+    <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </body>
+
+  </html>

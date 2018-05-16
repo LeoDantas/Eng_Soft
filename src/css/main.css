@@ -22,7 +22,7 @@ html {
     left: 0;
     width: 100%;
     background-color:#EDEDED;
-    font-size: 20px;
+    font-size: 25px;
     list-style:none;
 }
 
@@ -46,8 +46,8 @@ html {
 }
 
 #menu li img.logo_menu {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: auto;
 }
 
 #menu ul li a:hover {
